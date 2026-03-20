@@ -11,7 +11,6 @@ body:
     id: what
     attributes:
       label: What feature do you want added?
-      description: What feature do you want added?
       placeholder: "I want Kibana to..."
     validations:
       required: true
@@ -20,7 +19,7 @@ body:
     id: why
     attributes:
       label: Why?
-      description: Describe why you want this added, what does this enable?
+      description: Describe why you want this added, what use-case does this enable?
       placeholder: "This allows me to..."
     validations:
       required: true
